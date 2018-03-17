@@ -6227,6 +6227,9 @@ body{
 	color: white;
 	padding: 50px;
 }
+#main-slide p{
+	color: white!important;
+}
 #main-slide span i{
 	margin-top: 100%;
 }
