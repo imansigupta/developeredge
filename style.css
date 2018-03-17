@@ -4175,6 +4175,7 @@ article .list-single-main-item {
 	z-index:3;
 	width:160px;
 	height:160px;
+	margin-left: 36%;
 	display:inline-block;
 	margin-top:90px;
 	box-shadow: 0px 0px 0px 7px rgba(255,255,255,0.2);
@@ -4192,6 +4193,7 @@ article .list-single-main-item {
 	padding:12px 0;
 	background:#fff;
 	z-index:10;
+	text-align: center;
 	top:20px;
 	border-radius:30px;
 	font-weight:800;
