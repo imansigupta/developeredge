@@ -705,7 +705,7 @@ section.no-pading {
 .header-sec-link {
 	position:absolute;
 	bottom:0;
-	left:0;
+	left:-40%;
 	width:100%;
 	z-index:20;
 	text-align: center;
@@ -4179,6 +4179,7 @@ article .list-single-main-item {
 	display:inline-block;
 	margin-top:90px;
 	box-shadow: 0px 0px 0px 7px rgba(255,255,255,0.2);
+	margin-left:15px;
 }
 .images-collage-other {
 	width:90px;
@@ -4188,13 +4189,13 @@ article .list-single-main-item {
 }
 .images-collage-title {
 	position:absolute;
-	right:30%;
+	right:32%;
 	width:180px;
 	padding:12px 0;
 	background:#fff;
 	z-index:10;
 	text-align: center;
-	top:20px;
+	top:9px;
 	border-radius:30px;
 	font-weight:800;
 	font-size:18px;
@@ -5889,7 +5890,6 @@ img
 	border-bottom-left-radius:6px;
 	border-left:1px solid #eee;
 	border-bottom:1px solid #eee;
-	visibility:hidden;
 	opacity:0;
 	-webkit-transition: all 0.4s  ease-in-out;
 	-moz-transition: all 0.4s ease-in-out;
