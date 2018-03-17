@@ -769,6 +769,7 @@ section.parallax-section .bg {
 	width:100%;
 	position:relative;
 	padding-bottom:50px;
+	text-align: center;
 }
 .section-title .breadcrumbs {
 	margin-top:20px;
@@ -5786,6 +5787,37 @@ footer.main-footer.fixed-footer {
 }
 .mob-bg {
 	display:none;
+}
+.owl-carousel{
+	margin-top: 140px;
+}
+.gray-section
+{
+	height: 900px;
+}
+.owl-stage-outer
+{
+		position: absolute !important; 
+		top: 16% !important;
+}
+
+
+img
+{
+	width:50%;
+	height: 200px;
+}
+.owl-carousel .owl-item img{
+	display: block;
+    
+    height: 50% !important;
+	width: 60% !important ;
+	max-width: 70% !important;
+    text-align: center;
+    vertical-align: middle;
+    /* margin: 18%; */
+    margin-left: 24%;
+    margin-top: 7%;
 }
 /*------Responsive------------------------------------------------*/
 @media only screen and  (max-width: 1524px) {
