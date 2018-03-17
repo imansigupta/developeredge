@@ -5802,22 +5802,15 @@ footer.main-footer.fixed-footer {
 }
 
 
-img
-{
-	width:50%;
-	height: 200px;
-}
+
 .owl-carousel .owl-item img{
 	display: block;
-    
-    height: 50% !important;
-	width: 60% !important ;
-	max-width: 70% !important;
+    height: 200px !important;
+	width: 80% !important ;
+	
     text-align: center;
     vertical-align: middle;
-    /* margin: 18%; */
-    margin-left: 24%;
-    margin-top: 7%;
+  
 }
 /*------Responsive------------------------------------------------*/
 @media only screen and  (max-width: 1524px) {
