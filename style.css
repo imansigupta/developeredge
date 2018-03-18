@@ -4131,6 +4131,8 @@ article .list-single-main-item {
 	margin-bottom:40px;
 }
 .grid-item-holder {
+    border-radius: 10px;
+    margin-bottom: 20px;
 	float:left;
 	width:100%;
 	height:auto;
@@ -4144,46 +4146,10 @@ article .list-single-main-item {
 	padding:10px 20px 10px 0;
 }
 .gallery-item, .grid-sizer {
-	width: 33.3%;
 	position:relative;
-	float:left;
+	
 }
-.gallery-item-second,
-.grid-sizer-second {
-	width: 69%;
-}
-@media(max-width:1126px){
-    .gallery-item-second{left: 350px !important;}
-    .gallery-item-fourth{left: 350px !important;}
-    .gallery-item-fifth{left: 650px !important;}
-}
-@media(max-width:1024px){
-    .gallery-item-second{left: 320px !important;}
-    .gallery-item-fourth{left: 320px !important;}
-}
-@media(max-width:991px){
-    .gallery-item-second{left: 270px !important;}
-    .gallery-item-fourth{left: 270px !important;}
-    .gallery-item-fifth{left: 540px !important;}
-}
-@media(max-width:838px){
-    .gallery-item-second{left: 250px !important;}
-    .gallery-item-fourth{left: 250px !important;}
-    .gallery-item-fifth{left: 500px !important;}
-}
-@media(max-width:767px){
-    .gallery-item-fifth{display: none;}
-}
-@media(max-width:544px){
-    .listing-item-grid{width: 50% !important;}
-    .gallery-item-second{left: 240px !important;}
-    .gallery-item-fourth{left: 240px !important;}
-}
-@media(max-width:430px){
-    .listing-item-grid{width: 50% !important;}
-    .gallery-item-second{left: 210px !important;}
-    .gallery-item-fourth{left: 210px !important;}
-}
+
 .four-column  .gallery-item{
 	width:25%;
 }
@@ -4192,7 +4158,7 @@ article .list-single-main-item {
 }
 .gallery-item img, .grid-sizer img {
 	width: 100%;
-	height: 260px;
+	height: 270px;
 	position:relative;
 	z-index:1;
 }
@@ -6032,7 +5998,7 @@ section.list-single-section {
 }
 @media only screen and  (max-width: 768px) {
 .gallery-item {
-	width:50%;
+/*	width:50%;*/
 }
 .process-wrap li , .price-item   , .time-line-box , .listing-item ,  .listsearch-input-item  , .center-col-list-wrap .listing-item , .dashboard-listing-table-text , .dashboard-listing-table-image{
 	width:100%;
