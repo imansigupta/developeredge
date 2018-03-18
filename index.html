@@ -15,12 +15,15 @@
         <link type="text/css" rel="stylesheet" href="./style.css">
         <link type="text/css" rel="stylesheet" href="./color.css">
         <!--=============== favicons ===============-->
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+      <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
+      <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css">
           <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
-          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+          <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+          <link rel="stylesheet" href="./assets/css/font-awesome.min.css">
         <script src="assets/js/jquery-3.2.1.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script> -->
+<!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> -->
+<script src="./assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/owl.carousel.min.js"></script> 
         
     <style type="text/css">.scrollax-performance, .scrollax-performance *, .scrollax-performance *:before, .scrollax-performance *:after { pointer-events: none !important; -webkit-animation-play-state: paused !important; animation-play-state: paused !important; };</style><script type="text/javascript" src="./profile"></script></head>
@@ -102,9 +105,55 @@
                         <div class="overlay"></div>
                         <div class="hero-section-wrap fl-wrap">
                             <div class="container">
-                                <div class="intro-item fl-wrap">
-                                    <h2>Developer Edge</h2>
-                                    <h3>We help to shape your vision</h3>
+                                <div class="col-sm-6">
+                                    <div class="intro-item fl-wrap">
+                                        <h2>Developer Edge</h2>
+                                        <h3>Shaping Vision into reality</h3>
+                                    </div>
+                                </div>
+                                <div class=" col-sm-6">
+                                    <div id="main-slide" class="carousel slide" data-ride="carousel">
+                                        
+                                        <div class="carousel-inner">
+                            
+                                            <div class="item active">
+                                                    <div class="col-md-12 text-center">
+                                                        <h1 class="animated3">
+                                                            <span>Developer Edge</span>
+                                                        </h1>
+                                                        <p class="animated2">Where Ideas turn into Reality</p>
+                            
+                                                    </div>
+                                            </div>
+                                            <div class="item">
+                                                    <div class="col-md-12 text-center">
+                                                        <h1 class="animated3">
+                                                            <span>What We do</span>
+                                                        </h1>
+                                                        <p class="animated2">Provide Training & Workshops</p>
+                                                        
+                            
+                                                    </div>
+                                            </div>
+                                            <div class="item">
+                                                    <div class="col-md-12 text-center">
+                            
+                                                        <h1 class="animated2">
+                                                            <span>Free Lancing Projects</span>
+                                                        </h1>
+                                                        <p>We Help Your Business Grow</p>
+                            
+                                                        </div>
+                                                </div>
+                                        </div>
+                            
+                                        <a class="left carousel-control" href="#main-slide" data-slide="prev">
+                                            <span><i class="fa fa-angle-left"></i></span>
+                                        </a>
+                                        <a class="right carousel-control" href="#main-slide" data-slide="next">
+                                            <span><i class="fa fa-angle-right"></i></span>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -121,7 +170,7 @@
                                     <h2>How We Work</h2>
                                     <div class="section-subtitle">Discover &amp; Connect </div>
                                     <span class="section-separator"></span>
-                                    <p>Explore some of the best tips from around the world.</p>
+                                    <p>Explore some of the best services we offer!</p>
                                 </div>
                                 <!--process-wrap  -->
                                 <div class="process-wrap fl-wrap">
@@ -130,8 +179,9 @@
                                             <div class="process-item">
                                                 <span class="process-count">01 . </span>
                                                 <div class="time-line-icon"><i class="fa fa-map-o"></i></div>
-                                                <h4> Find Interesting Place</h4>
-                                                <p>Proin dapibus nisl ornare diam varius tempus. Aenean a quam luctus, finibus tellus ut, convallis eros sollicitudin turpis.</p>
+                                                <h4> Freelancing</h4>
+                                                <p>Whatever your needs be, we provide the best services: from web design, to mobile app development , virtual assistants, and graphic design (and a whole lot more).
+                                                    </p>
                                             </div>
                                             <span class="pr-dec"></span>
                                         </li>
@@ -139,8 +189,8 @@
                                             <div class="process-item">
                                                 <span class="process-count">02 .</span>
                                                 <div class="time-line-icon"><i class="fa fa-envelope-open-o"></i></div>
-                                                <h4> Contact a Few Owners</h4>
-                                                <p>Faucibus ante, in porttitor tellus blandit et. Phasellus tincidunt metus lectus sollicitudin feugiat pharetra consectetur.</p>
+                                                <h4> Workhop</h4>
+                                                <p>We Conduct workshops in both colleges and schools on the latest technology to make students aware of latest market trends.</p>
                                             </div>
                                             <span class="pr-dec"></span>
                                         </li>
@@ -148,8 +198,8 @@
                                             <div class="process-item">
                                                 <span class="process-count">03 .</span>
                                                 <div class="time-line-icon"><i class="fa fa-hand-peace-o"></i></div>
-                                                <h4> Make a Listing</h4>
-                                                <p>Maecenas pulvinar, risus in facilisis dignissim, quam nisi hendrerit nulla, id vestibulum metus nullam viverra porta.</p>
+                                                <h4> Training</h4>
+                                                <p>We endavor to make students employable in the field of IT.Our desire is to create value, earn trust, deliver result, exceed expectations and empower students with best technologies </p>
                                             </div>
                                         </li>
                                     </ul>
@@ -158,7 +208,126 @@
                                 <!--process-wrap   end-->
                             </div>
                         </section>
+<!--<<<<<<< HEAD-->
+                        <section class="gray-section">
+                                <div class="container">
+                                    <div class="section-title">
+                                        <h2>Courses Offered</h2>
+                                        <div class="section-subtitle">Courses Offered</div>
+                                        <span class="section-separator"></span>
+                                        <p>Nulla tristique mi a massa convallis cursus. Nulla eu mi magna.</p>
+                                    </div>
+                                    
+                                </div>  
+                                
+                                <section id="section_5">
+        
+            <div class="card">
+                <img class="card-img-top" src="..." alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+              </div>              
+         
+        
+                            </section> 
+                               
+                            </section>
+                          
+                   
+                     <section id="sec2">
+                        <div class="container">
+                            <div class="section-title">
+                                <h2>Featured Categories</h2>
+                                <div class="section-subtitle">Catalog of Categories</div>
+                                <span class="section-separator"></span>
+                                <p>Explore some of the best tips from around the city from our partners and friends.</p>
+                            </div>
+                            <!-- portfolio start -->
+                            <div class="gallery-items fl-wrap mr-bot spad" style="position: relative; height: 556.485px;">
+                                <!-- gallery-item-->
+                                <div class="gallery-item" style="position: absolute; left: 0px; top: 0px;">
+                                    <div class="grid-item-holder">
+                                        <div class="listing-item-grid">
+                                            <img src="./king-kong.PNG" alt="">
+                                            <div class="listing-counter"><span>10 </span> Locations</div>
+                                            <div class="listing-item-cat">
+                                                <h3><a href="http://citybook.kwst.net/listing.html">Conference and Event</a></h3>
+                                                <p>Constant care and attention to the patients makes good record</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- gallery-item end-->
+                                <!-- gallery-item-->
+                                <div class="gallery-item gallery-item-second" style="position: absolute; left: 407px; top: 0px;">
+                                    <div class="grid-item-holder">
+                                        <div class="listing-item-grid">
+                                            <img src="escale1.JPG" alt="">
+                                            <div class="listing-counter"><span>6 </span> Locations</div>
+                                            <div class="listing-item-cat">
+                                                <h3><a href="http://citybook.kwst.net/listing.html">Cafe - Pub</a></h3>
+                                                <p>Constant care and attention to the patients makes good record</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- gallery-item end-->
+                                <!-- gallery-item-->
+                                <div class="gallery-item" style="position: absolute; left: 0px; top: 276px;">
+                                    <div class="grid-item-holder">
+                                        <div class="listing-item-grid">
+                                            <img src="./chokidhani2.PNG" alt="">
+                                            <div class="listing-counter"><span>21 </span> Locations</div>
+                                            <div class="listing-item-cat">
+                                                <h3><a href="http://citybook.kwst.net/listing.html">Gym - Fitness</a></h3>
+                                                <p>Constant care and attention to the patients makes good record</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- gallery-item end-->
+                                <!-- gallery-item-->
+                                <div class="gallery-item gallery-item-fourth" style="position: absolute; left: 407px; top: 279px;">
+                                    <div class="grid-item-holder">
+                                        <div class="listing-item-grid">
+                                            <img src="./gameroad2.PNG" alt="">
+                                            <div class="listing-counter"><span>7 </span> Locations</div>
+                                            <div class="listing-item-cat">
+                                                <h3><a href="http://citybook.kwst.net/listing.html">Hotels</a></h3>
+                                                <p>Constant care and attention to the patients makes good record</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- gallery-item end-->
+                                <!-- gallery-item-->
+                                <div class="gallery-item gallery-item-fifth" style="position: absolute; left: 815px; top: 279px;">
+                                    <div class="grid-item-holder">
+                                        <div class="listing-item-grid">
+                                            <img src="./webkrunch2.PNG" alt="">
+                                            <div class="listing-counter"><span>15 </span> Locations</div>
+                                            <div class="listing-item-cat">
+                                                <h3><a href="http://citybook.kwst.net/listing.html">Shop - Store</a></h3>
+                                                <p>Constant care and attention to the patients makes good record</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- gallery-item end-->
+                               
+                                
+                            </div>
+                            <!-- portfolio end -->
+                            <a href="#" class="btn  big-btn circle-btn dec-btn  color-bg flat-btn">View All<i class="fa fa-eye"></i></a>
+                        </div>
+                    </section>
+                    <!-- section end -->
+=======
                         
+>>>>>>> origin/master
                     <!--section -->
                     <section class="gray-section">
                         <div class="container">
@@ -297,7 +466,7 @@
                                 <div class="gallery-item" style="position: absolute; left: 0px; top: 0px;">
                                     <div class="grid-item-holder">
                                         <div class="listing-item-grid">
-                                            <img src="./1.jpg" alt="">
+                                            <img src="./king-kong.PNG" alt="">
                                             <div class="listing-counter"><span>10 </span> Locations</div>
                                             <div class="listing-item-cat">
                                                 <h3><a href="http://citybook.kwst.net/listing.html">Conference and Event</a></h3>
@@ -311,7 +480,7 @@
                                 <div class="gallery-item gallery-item-second" style="position: absolute; left: 407px; top: 0px;">
                                     <div class="grid-item-holder">
                                         <div class="listing-item-grid">
-                                            <img src="./19.jpg" alt="">
+                                            <img src="escale1.JPG" alt="">
                                             <div class="listing-counter"><span>6 </span> Locations</div>
                                             <div class="listing-item-cat">
                                                 <h3><a href="http://citybook.kwst.net/listing.html">Cafe - Pub</a></h3>
@@ -325,7 +494,7 @@
                                 <div class="gallery-item" style="position: absolute; left: 0px; top: 276px;">
                                     <div class="grid-item-holder">
                                         <div class="listing-item-grid">
-                                            <img src="./3.jpg" alt="">
+                                            <img src="./chokidhani2.PNG" alt="">
                                             <div class="listing-counter"><span>21 </span> Locations</div>
                                             <div class="listing-item-cat">
                                                 <h3><a href="http://citybook.kwst.net/listing.html">Gym - Fitness</a></h3>
@@ -336,10 +505,10 @@
                                 </div>
                                 <!-- gallery-item end-->
                                 <!-- gallery-item-->
-                                <div class="gallery-item" style="position: absolute; left: 407px; top: 279px;">
+                                <div class="gallery-item gallery-item-fourth" style="position: absolute; left: 407px; top: 279px;">
                                     <div class="grid-item-holder">
                                         <div class="listing-item-grid">
-                                            <img src="./22.jpg" alt="">
+                                            <img src="./gameroad2.PNG" alt="">
                                             <div class="listing-counter"><span>7 </span> Locations</div>
                                             <div class="listing-item-cat">
                                                 <h3><a href="http://citybook.kwst.net/listing.html">Hotels</a></h3>
@@ -350,10 +519,10 @@
                                 </div>
                                 <!-- gallery-item end-->
                                 <!-- gallery-item-->
-                                <div class="gallery-item" style="position: absolute; left: 815px; top: 279px;">
+                                <div class="gallery-item gallery-item-fifth" style="position: absolute; left: 815px; top: 279px;">
                                     <div class="grid-item-holder">
                                         <div class="listing-item-grid">
-                                            <img src="./5.jpg" alt="">
+                                            <img src="./webkrunch2.PNG" alt="">
                                             <div class="listing-counter"><span>15 </span> Locations</div>
                                             <div class="listing-item-cat">
                                                 <h3><a href="http://citybook.kwst.net/listing.html">Shop - Store</a></h3>
@@ -363,6 +532,8 @@
                                     </div>
                                 </div>
                                 <!-- gallery-item end-->
+                               
+                                
                             </div>
                             <!-- portfolio end -->
                             <a href="#" class="btn  big-btn circle-btn dec-btn  color-bg flat-btn">View All<i class="fa fa-eye"></i></a>
@@ -378,10 +549,11 @@
                                     <div class="images-collage fl-wrap">
                                         <div class="images-collage-title">D<span>EDGE</span></div>
                                         <div class="images-collage-main images-collage-item"><img src="./1(1).jpg" alt=""></div>
-                                        <div class="images-collage-other images-collage-item" data-position-left="23" data-position-top="10" data-zindex="2" style="top: 10%; z-index: 2; left: 23%;"><img src="./2(1).jpg" alt=""></div>
-                                        <div class="images-collage-other images-collage-item" data-position-left="62" data-position-top="54" data-zindex="5" style="top: 54%; z-index: 5; left: 62%;"><img src="./4.jpg" alt=""></div>
-                                        <div class="images-collage-other images-collage-item anim-col" data-position-left="18" data-position-top="70" data-zindex="11" style="top: 70%; z-index: 11; left: 18%;"><img src="./6(1).jpg" alt=""></div>
-                                        <div class="images-collage-other images-collage-item" data-position-left="37" data-position-top="90" data-zindex="1" style="top: 90%; z-index: 1; left: 37%;"><img src="./5(1).jpg" alt=""></div>
+                                        <div class="images-collage-other images-collage-item" data-position-left="23" data-position-top="10" data-zindex="2" style="top: 20%; z-index: 2; left: 22%;"><img src="./2(1).jpg" alt=""></div>
+                                        <div class="images-collage-other images-collage-item" data-position-left="62" data-position-top="54" data-zindex="5" style="top: 25%; z-index: 5; left: 65%;"><img src="./4.jpg" alt=""></div>
+                                        <div class="images-collage-other images-collage-item" data-position-left="18" data-position-top="70" data-zindex="11" style="top: 70%; z-index: 11; left: 65%;"><img src="./6(1).jpg" alt=""></div>
+                                        <div class="images-collage-other images-collage-item" data-position-left="37" data-position-top="90" data-zindex="1" style="top: 68%; z-index: 1; left: 20%;"><img src="./5(1).jpg" alt=""></div>
+                                        <div class="images-collage-other images-collage-item" data-position-left="37" data-position-top="90" data-zindex="1" style="top: 100%; z-index: 1; left: 42%;"><img src="./5(1).jpg" alt=""></div>
                                     </div>
                                 </div>
                                 <div class="col-md-6">
@@ -399,51 +571,6 @@
                     <section>
                         <div class="container">
                             <div class="section-title">
-                                <h2>How it works</h2>
-                                <div class="section-subtitle">Discover &amp; Connect </div>
-                                <span class="section-separator"></span>
-                                <p>Explore some of the best tips from around the world.</p>
-                            </div>
-                            <!--process-wrap  -->
-                            <div class="process-wrap fl-wrap">
-                                <ul>
-                                    <li>
-                                        <div class="process-item">
-                                            <span class="process-count">01 . </span>
-                                            <div class="time-line-icon"><i class="fa fa-map-o"></i></div>
-                                            <h4> Find Interesting Place</h4>
-                                            <p>Proin dapibus nisl ornare diam varius tempus. Aenean a quam luctus, finibus tellus ut, convallis eros sollicitudin turpis.</p>
-                                        </div>
-                                        <span class="pr-dec"></span>
-                                    </li>
-                                    <li>
-                                        <div class="process-item">
-                                            <span class="process-count">02 .</span>
-                                            <div class="time-line-icon"><i class="fa fa-envelope-open-o"></i></div>
-                                            <h4> Contact a Few Owners</h4>
-                                            <p>Faucibus ante, in porttitor tellus blandit et. Phasellus tincidunt metus lectus sollicitudin feugiat pharetra consectetur.</p>
-                                        </div>
-                                        <span class="pr-dec"></span>
-                                    </li>
-                                    <li>
-                                        <div class="process-item">
-                                            <span class="process-count">03 .</span>
-                                            <div class="time-line-icon"><i class="fa fa-hand-peace-o"></i></div>
-                                            <h4> Make a Listing</h4>
-                                            <p>Maecenas pulvinar, risus in facilisis dignissim, quam nisi hendrerit nulla, id vestibulum metus nullam viverra porta.</p>
-                                        </div>
-                                    </li>
-                                </ul>
-                                <div class="process-end"><i class="fa fa-check"></i></div>
-                            </div>
-                            <!--process-wrap   end-->
-                        </div>
-                    </section>
-                    <!-- section end -->
-                    <!--section -->
-                    <section>
-                        <div class="container">
-                            <div class="section-title">
                                 <h2> Pricing Tables</h2>
                                 <div class="section-subtitle">cost of our services</div>
                                 <span class="section-separator"></span>
@@ -452,7 +579,7 @@
                             <div class="pricing-wrap fl-wrap">
                                 <!-- price-item-->
                                 <div class="price-item">
-                                    <div class="price-head op1">
+                                    <div class="price-head op1 color1">
                                         <h3>Angular</h3>
                                     </div>
                                     <div class="price-content fl-wrap">
@@ -468,14 +595,14 @@
                                                 <li>Non-Featured</li>
                                                 <li>Limited Support</li>
                                             </ul>
-                                            <a href="http://citybook.kwst.net/#" class="price-link">Choose Basic</a>
+                                            <a href="http://citybook.kwst.net/#" class="price-link color1">Choose Basic</a>
                                         </div>
                                     </div>
                                 </div>
                                 <!-- price-item end-->
                                 <!-- price-item-->
                                 <div class="price-item best-price">
-                                    <div class="price-head op2">
+                                    <div class="price-head op2 color2">
                                         <h3>Android</h3>
                                     </div>
                                     <div class="price-content fl-wrap">
@@ -491,7 +618,7 @@
                                                 <li>Featured In Search Results</li>
                                                 <li>24/7 Support</li>
                                             </ul>
-                                            <a href="http://citybook.kwst.net/#" class="price-link">Choose Extended</a>
+                                            <a href="http://citybook.kwst.net/#" class="price-link color2">Choose Extended</a>
                                             <div class="recomm-price">
                                                 <i class="fa fa-check"></i>
                                                 <span class="clearfix"></span>
@@ -503,7 +630,7 @@
                                 <!-- price-item end-->
                                 <!-- price-item-->
                                 <div class="price-item">
-                                    <div class="price-head">
+                                    <div class="price-head color3">
                                         <h3>Web-D</h3>
                                     </div>
                                     <div class="price-content fl-wrap">
@@ -519,7 +646,7 @@
                                                 <li>Featured In Search Results</li>
                                                 <li>24/7 Support</li>
                                             </ul>
-                                            <a href="http://citybook.kwst.net/#" class="price-link">Choose Professional</a>
+                                            <a href="http://citybook.kwst.net/#" class="price-link color3">Choose Professional</a>
                                         </div>
                                     </div>
                                 </div>
@@ -530,7 +657,7 @@
                     </section>
                     <!-- section end -->
                     <!--section -->
-                    <section class="color-bg">
+                    <section class="color-bg" id="customers">
                         <div class="shapes-bg-big"></div>
                         <div class="container">
                             <div class=" single-facts fl-wrap">
@@ -587,7 +714,7 @@
                     </section>
                     <!-- section end -->
                     <!--section -->
-                    <section>
+                    <section id="sec_test">
                         <div class="container">
                             <div class="section-title">
                                 <h2>Testimonials</h2>
@@ -842,7 +969,7 @@
                                 <div class="row">
                                     <div class="col-md-8">
                                         <h3>Do You Have Questions ?</h3>
-                                        <p>Lorem ipsum dolor sit amet, harum dolor nec in, usu molestiae at no.</p>
+                                        <p>Feel Free to contact us</p>
                                     </div>
                                     <div class="col-md-4"><a href="http://citybook.kwst.net/contacts.html" class="join-wrap-btn">Get In Touch <i class="fa fa-envelope-o"></i></a></div>
                                 </div>
@@ -969,11 +1096,11 @@
                         <div class="row">
                             <div class="col-md-4">
                                 <div class="about-widget">
-                                    <img src="./logo.png" alt="">
+                                    <img src="D-EDGE.png" alt="">
                                 </div>
                             </div>
                             <div class="col-md-4">
-                                <div class="copyright"> © CityBook 2018 .  All rights reserved.</div>
+                                <div class="copyright"> ©DeveloperEdge 2018 .  All rights reserved.</div>
                             </div>
                             <div class="col-md-4">
                                 <div class="footer-social">
