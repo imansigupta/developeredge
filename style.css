@@ -324,7 +324,7 @@ blockquote p {
 	box-shadow: 0px 0px 0px 7px rgba(0,0,0,0.2);
 }
 .dark-header {
-	background:#2F3B59;
+	background:#000000;
 }
 .fs-header {
 	padding:0px 50px;
@@ -691,7 +691,7 @@ section {
 	float:left;
 	width:100%;
 	position:relative;
-	padding:80px 0;
+	padding:40px 0;
 	overflow:hidden;
 	background:#fff;
 	z-index:1;
@@ -705,7 +705,7 @@ section.no-pading {
 .header-sec-link {
 	position:absolute;
 	bottom:0;
-	left:-40%;
+	left:-32%;
 	width:100%;
 	z-index:20;
 	text-align: center;
@@ -770,7 +770,6 @@ section.parallax-section .bg {
 	float:left;
 	width:100%;
 	position:relative;
-	padding-bottom:50px;
 	text-align: center;
 }
 .section-title .breadcrumbs {
@@ -1071,6 +1070,9 @@ section.color-bg .section-title .breadcrumbs a:before {
 .fw-carousel .slick-slide-item img {
 	width:auto  ;
 	height:100%   !important;
+}
+.fa-laptop{
+	font-size:80px!important;
 }
 .list-single-carousel-wrap    .slick-slide-item .box-item {
 	height:100%;
@@ -4065,6 +4067,7 @@ article .list-single-main-item {
 }
 .btn.color-bg:hover{
 	background:#2F3B59;
+	color: white;
 }
 .btn i {
 	padding-left:10px;
@@ -4147,7 +4150,7 @@ article .list-single-main-item {
 }
 .gallery-item-second,
 .grid-sizer-second {
-	width: 66.6%;
+	width: 69%;
 }
 @media(max-width:1126px){
     .gallery-item-second{left: 350px !important;}
@@ -4969,9 +4972,7 @@ footer.main-footer.fixed-footer {
 }
 .process-end {
 	display:inline-block;
-	margin-top:30px;
 	position:relative;
-	
 	text-align: center;
 }
 
@@ -4992,7 +4993,7 @@ footer.main-footer.fixed-footer {
     background: #fff;
     border-radius: 100%;
     z-index: 3;
-    background: #5ECFB1;
+    background: #2F3B59;
     border-radius: 100%;
     font-size: 20px;
     color: #fff;
@@ -5867,6 +5868,22 @@ footer.main-footer.fixed-footer {
 .color3{
 	background-color: #00b8d4 !important;
 }
+.carousel{
+	top:170px;
+	position: relative;
+	right:-10%;
+}
+#main-slide{
+	color: white;
+	padding: 50px;
+	opacity: 0.9;
+	box-shadow: 1px 1px 80px 2px black;
+	background-color: transparent!important;
+}
+.carousel-control{
+	font-size: 40px !important;
+	background-color: transparent;
+}
 /*------Responsive------------------------------------------------*/
 @media only screen and  (max-width: 1524px) {
 .cs-wrapper {
@@ -6242,10 +6259,8 @@ header.main-header {
 	background-position:center;
 }
 }
-body{
-	
+body{	
 	font-family: 'Noto Sans', sans-serif !important;
-	
 }
 #main-slide{
 	background-color: #606060;
@@ -6257,9 +6272,6 @@ body{
 }
 #main-slide span i{
 	margin-top: 100%;
-}
-.owl-stage-outer{
-	margin-top: 15%;
 }
 .owl-item .card{
 	width: 80%;
