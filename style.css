@@ -4126,41 +4126,84 @@ article .list-single-main-item {
 .list-single-btn i{
 	padding-left:10px;
 }
-/*------ Grid Gallery------------------------------------------------*/
-.gallery-items.mr-bot {
-	margin-bottom:40px;
+/* *********** MY PROJECTS ********** */
+
+.project-screen{
+    margin: 20px;
 }
-.grid-item-holder {
-    border-radius: 10px;
-    margin-bottom: 20px;
-	float:left;
-	width:100%;
-	height:auto;
-	position:relative;
-	overflow:hidden;
-}
-.spad .grid-item-holder {
-	padding:10px;
-}
-.grid-small-pad  .grid-item-holder{
-	padding:10px 20px 10px 0;
-}
-.gallery-item, .grid-sizer {
-	position:relative;
-	
+.project-screen a{
+    display: inline-block;
+    position: relative;
+    width: 90%;
+    
 }
 
-.four-column  .gallery-item{
-	width:25%;
+.project-screen img{
+    width: 100%;
+    border-radius: 10px;
 }
-.four-column  .gallery-item.gallery-item-second{
-	width:50%;
+
+.project-screen .img-overlay{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    border-radius: 10px;
+    z-index: 100;
 }
-.gallery-item img, .grid-sizer img {
-	width: 100%;
-	height: 270px;
-	position:relative;
-	z-index:1;
+
+/* ********* OVERLAY GRID ************ */
+#grid-projects .project-article:first-child .img-overlay{
+    background: rgba(158, 84, 229, 0.7);
+
+}
+
+#grid-projects .project-article:nth-child(2) .img-overlay{
+    background: rgba(49, 60, 64, 0.7);
+
+}
+
+#grid-projects .project-article:nth-child(3) .img-overlay{
+    background: rgba(208, 112, 87, 0.7);
+
+}
+
+
+#grid-projects .project-article:nth-child(4) .img-overlay{
+    background: rgba(85, 136, 195, 0.7);
+
+}
+
+
+#grid-projects .project-article:nth-child(5) .img-overlay{
+    background: rgba(32, 55, 74, 0.7);
+
+}
+
+#grid-projects .project-article:nth-child(6) .img-overlay{
+    background: rgba(40, 140, 91, 0.7);
+
+}
+
+/* ************************************ */
+
+.project-screen .img-title{
+    display: inline-block;
+    position: absolute;
+    width: 100%;
+    top: 40%;
+    text-align: center;
+    color: #fff;
+    font: bold 28px 'montserrat';
+    z-index: 100;
+
+}
+
+.project-content p{
+    font: normal 14px 'montserrat';
+    line-height: 1.6;
+    padding: 8px 10px;
 }
 /*------ Image collage------------------------------------------------*/
 .images-collage-item img {
